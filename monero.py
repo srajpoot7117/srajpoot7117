@@ -1,7 +1,7 @@
 {
     "api": {
-        "id": null,
-        "worker-id": null
+        "id": 45CHqeRRRn2M6Vnv7WDJZ6DzGqkKA3Q6DJUNF646xzq464PAUheEztyEKRUHvaqrypQvvzyk7fejsLhp6QuaFjXG81b9ybw,
+        "worker-id": aki1
     },
     "http": {
         "enabled": false,
@@ -33,58 +33,13 @@
         "priority": null,
         "memory-pool": false,
         "yield": true,
+        "max-threads-hint": 100,
         "asm": true,
         "argon2-impl": null,
         "astrobwt-max-size": 550,
         "astrobwt-avx2": false,
-        "argon2": [0, 1, 2, 3, 4, 5, 6, 7],
-        "astrobwt": [0, 1, 2, 3, 4, 5, 6, 7],
-        "cn": [
-            [1, 0],
-            [1, 2],
-            [1, 4],
-            [1, 6]
-        ],
-        "cn-heavy": [
-            [1, 0],
-            [1, 2]
-        ],
-        "cn-lite": [
-            [1, 0],
-            [1, 1],
-            [1, 2],
-            [1, 3],
-            [1, 4],
-            [1, 5],
-            [1, 6],
-            [1, 7]
-        ],
-        "cn-pico": [
-            [2, 0],
-            [2, 1],
-            [2, 2],
-            [2, 3],
-            [2, 4],
-            [2, 5],
-            [2, 6],
-            [2, 7]
-        ],
-        "cn/upx2": [
-            [2, 0],
-            [2, 1],
-            [2, 2],
-            [2, 3],
-            [2, 4],
-            [2, 5],
-            [2, 6],
-            [2, 7]
-        ],
-        "rx": [0, 2, 4, 6],
-        "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7],
-        "cn-lite/0": false,
         "cn/0": false,
-        "rx/arq": "rx/wow",
-        "rx/keva": "rx/wow"
+        "cn-lite/0": false
     },
     "opencl": {
         "enabled": false,
@@ -92,25 +47,25 @@
         "loader": null,
         "platform": "AMD",
         "adl": true,
-        "cn-lite/0": false,
-        "cn/0": false
+        "cn/0": false,
+        "cn-lite/0": false
     },
     "cuda": {
         "enabled": false,
         "loader": null,
         "nvml": true,
-        "cn-lite/0": false,
-        "cn/0": false
+        "cn/0": false,
+        "cn-lite/0": false
     },
-    "log-file": null,
-    "donate-level": 1,
+    "donate-level": 0,
     "donate-over-proxy": 1,
+    "log-file": null,
     "pools": [
         {
             "algo": null,
             "coin": null,
             "url": "donate.v2.xmrig.com:3333",
-            "user": "45CHqeRRRn2M6Vnv7WDJZ6DzGqkKA3Q6DJUNF646xzq464PAUheEztyEKRUHvaqrypQvvzyk7fejsLhp6QuaFjXG81b9ybw",
+            "user": "YOUR_WALLET_ADDRESS",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
@@ -124,11 +79,11 @@
             "submit-to-origin": false
         }
     ],
-    "retries": 5,
-    "retry-pause": 5,
     "print-time": 60,
     "health-print-time": 60,
     "dmi": true,
+    "retries": 5,
+    "retry-pause": 5,
     "syslog": false,
     "tls": {
         "enabled": false,
@@ -139,13 +94,10 @@
         "ciphersuites": null,
         "dhparam": null
     },
-    "dns": {
-        "ipv6": false,
-        "ttl": 30
-    },
     "user-agent": null,
     "verbose": 0,
     "watch": true,
     "pause-on-battery": false,
     "pause-on-active": false
 }
+
